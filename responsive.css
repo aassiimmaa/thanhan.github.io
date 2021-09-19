@@ -1,0 +1,104 @@
+@media (min-width: 741px) and (max-width: 1023px){
+	.social i{
+		font-size: 50px;
+	}
+
+	#footer .link-cre,
+	#footer .cre{
+		font-size: 30px;
+	}
+}
+
+
+@media (max-width: 740px){
+	#header{
+		overflow: hidden;
+	}
+
+	#header .search_icon{
+		display: none;	
+	}
+
+	#header .mobile-menu{
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	#nav{
+		display: block;
+	}
+
+	#nav > li{
+		display: block;
+	}
+
+	#nav > li:first-child{
+		display: inline-block;
+	}
+
+	#nav li{
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+	#nav .subnav li{
+		padding: 1px 24px;
+	}
+
+	#nav .subnav a{
+		color: #fff;	
+	}
+
+	#nav .subnav{
+		position: initial;
+	}
+
+	#content .member-item,
+	.col-half, .col-third{
+		width: 100%;
+	}
+
+	#content .member-img{
+		width: 229.19px;
+	}
+
+	#content .member-name{
+		margin-top: 30px;
+	}
+
+	.place-body{
+		margin-bottom: 16px;
+	}
+
+	.buy-button{
+		width: 100%;
+	}
+
+	.place-heading, .place-time,
+	.place-description{
+		text-align: center;
+	}
+
+	#content3{
+		margin: auto;
+	}
+
+	.fill-name, .fill-email{
+		margin-top: 8px;
+	}	
+
+	.submit-btn{
+		width: 100%;
+	}
+
+	.social i{
+		font-size: 32px;
+	}
+
+	#footer .link-cre,
+	#footer .cre{
+		font-size: 20px;
+	}
+
+}
