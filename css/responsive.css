@@ -6,6 +6,7 @@
 
     body {
         margin-top: 5px;
+        overflow: hidden;
     }
 
     .container {
@@ -100,9 +101,9 @@
     }
 
     span {
-        font-size: 55px;
-        top: -4px;
-        left: 68%;
+        font-size: 45px;
+        top: 7px;
+        left: 75%;
 
     }
 }
