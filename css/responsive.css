@@ -1,0 +1,108 @@
+
+@media (max-width: 740px) {
+    html {
+     overflow: hidden;
+    }
+
+    body {
+        margin-top: 5px;
+    }
+
+    .container {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .balloon>div {
+        width: 60px;
+        height: 79px;
+    }
+
+    .balloon>div:nth-child(1) {
+        left: 23px;
+
+    }
+
+    .balloon>div:nth-child(2) {
+        left: 95px;
+    }
+
+    .balloon>div:nth-child(3) {
+        left: 167px;
+    }
+
+    .balloon>div:nth-child(4) {
+        left: 242px;
+    }
+
+    .balloon>div:nth-child(5) {
+        left: 326px;
+    }
+
+    .balloon>div:nth-child(6) {
+        left: 23px;
+        top: 141px;
+    }
+
+    .balloon>div:nth-child(7) {
+        left: 107px;
+        top: 134px;
+    }
+
+    .balloon>div:nth-child(8) {
+        left: 175px;
+        top: 158px;
+    }
+
+    .balloon>div:nth-child(9) {
+        left: 237px;
+        top: 137px;
+    }
+
+    .balloon>div:nth-child(10) {
+        left: 316px;
+        top: 159px;
+    }
+
+    .balloon>div:nth-child(11) {
+        left: 98px;
+        top: 244px;
+    }
+
+    .balloon>div:nth-child(12) {
+        left: 173px;
+        top: 225px;
+    }
+
+
+    .balloon>div:nth-child(13) {
+        left: 242px;
+        top: 227px;
+    }
+
+   .balloon > div:before {
+    	left: 22px;
+    }
+
+    .avatar {
+        left: 30%;
+        top: -35%;
+    }
+
+    .avatar-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .avatar-title {
+        font-size: 40px;
+        margin-top: -160px;
+    }
+
+    span {
+        font-size: 55px;
+        top: -4px;
+        left: 68%;
+
+    }
+}

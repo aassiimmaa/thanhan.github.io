@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Happy Birthday</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="balloon">
+            <div><span>H</span></div>
+            <div><span>A</span></div>
+            <div><span>P</span></div>
+            <div><span>P</span></div>
+            <div><span>Y</span></div>
+            <div><span>B</span></div>
+            <div><span>I</span></div>
+            <div><span>R</span></div>
+            <div><span>T</span></div>
+            <div><span>H</span></div>
+            <div><span>D</span></div>
+            <div><span>A</span></div>
+            <div><span>Y</span></div>
+        </div>
+        <div class="avatar">
+            <div><img src="img/background.jpg" alt="" class="avatar-img js-avt-img"></div>
+            <div>
+                <h1 class="avatar-title js-avt-title">WTF</h1>
+            </div>
+        </div>
+    </div>
+    <div class="wishes js-wishes">
+        <div class="wishes-container js-wishes-container">
+            <h2 class="wishes-title">Happy Birthday Bro 😜</h2>
+            <p class="wishes-message">Sin nhực zui zẻ, chúc tủi mới mau có zợ he :v</p>
+            <p class="wishes-message mt-18 pdl-24">Nghe nhạc nà :v</p>
+            <audio class="player" controls="">
+                <source src="./HPBD.mp3" type="audio/mp3">
+            </audio>
+            <div class="wishes-close"><button class="js-close">:3</button></div>
+        </div>
+    </div>
+    <script>
+    const Wishes = document.querySelector('.js-wishes')
+    const WishesOpen = document.querySelector('.js-avt-img')
+    const WishesOpen2 = document.querySelector('.js-avt-title')
+    const WishesClose = document.querySelector('.js-close')
+    const Wishescontainer = document.querySelector('.js-wishes-container')
+
+
+    function show() {
+        Wishes.classList.add('open')
+    }
+
+
+    function hidden() {
+        Wishes.classList.remove('open')
+    }
+
+    WishesOpen.addEventListener('click', show)
+    WishesOpen2.addEventListener('click', show)
+    WishesClose.addEventListener('click', hidden)
+    Wishes.addEventListener('click', hidden)
+    Wishescontainer.addEventListener('click', function(event) {
+        event.stopPropagation()
+    })
+    </script>
+</body>
+
+</html>
